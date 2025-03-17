@@ -1,0 +1,122 @@
+:root {
+  --brand: #e28813;
+  --sub: #6ac754;
+  --body: #516171;
+  --border: rgba(0,0,0,0.08);
+  --shadow: 0px 6px 30px #00000014;
+}
+
+.classy-navbar .nav-brand b{
+  color: #007abb;
+}
+
+.classy-navbar small i{
+  font-size: 18px;
+}
+.classy-navbar small a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+.classy-navbar small a:hover{
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .classy-navbar .nav-brand b{
+    font-size: 16px;
+  }
+  .nav-brand img{
+    max-height: 40px;
+  }
+  .classy-navbar small a{
+    font-size: 12px;
+  }
+  .classy-navbar small i{
+    font-size: 12px;
+  }
+}
+
+/*** Latest News Start ***/
+.latest-news .latest-news-carousel.owl-carousel{
+  position: relative;
+}
+
+.latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: -55px;
+  right: 70px;
+  font-size: 20px;
+  padding: 2px 20px;
+  transition: 0.5s;
+  margin-right: 10px;
+  border: 1px solid var(--brand);
+  color: var(--bs-dark);
+  border-radius: 20px;
+}
+
+.latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: -55px;
+  right: 0;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 2px 20px;
+  transition: 0.5s;
+  border: 1px solid var(--brand);
+  color: var(--bs-dark);
+  border-radius: 20px;
+}
+
+.latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-prev:hover,
+.latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-next:hover {
+  background: var(--brand);
+  color: white;
+  border-radius: 10px;
+}
+.latest-news-item img{
+  border-radius: 5px;
+  filter: brightness(0.5);
+  height: 200px;
+}
+
+/* .latest-news-img{
+  position: relative;
+} */
+
+.latest-news-title{
+  color: white;
+  font-weight: 600;
+  /* position: relative; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* height: 80px; */
+  align-items: center;
+  justify-content: center;
+}
+.latest-news-para p{
+  text-align: center;
+}
+/*** Latest News End ***/
+
+.sec_h4{
+  font-weight: 600;
+}
+
+.facilities_item{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+}
+.facilities_item h4{
+  color: white;
+}
+.facilities_item p{
+  color: #dadada;
+}
+
+.widget-sub{
+  display: flex;
+  justify-content: center;
+}
+
